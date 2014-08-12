@@ -1,7 +1,6 @@
----
-title: "Getting & Clearing Data Course Project"
-output: html_document
----
+Getting & Clearing Data Course Project
+======================================
+
 Created by M. Louie
 
 
