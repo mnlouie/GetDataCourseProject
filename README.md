@@ -40,11 +40,11 @@ Nuts & bolts
 
 1. The three files corresponding to each subset, test and train, are loaded into R. 
     
-+ X_[train/test].txt
-+ Y_[train/test].txt
-+ subject_[train/test].txt
+  + X_[train/test].txt
+  + Y_[train/test].txt
+  + subject_[train/test].txt
     
-In addition, 'features.txt' and 'activity_label.txt' files are loaded. The features defined the first of these files are used as the header names for the X_[Train/Test] files. 
+  In addition, 'features.txt' and 'activity_label.txt' files are loaded. The features defined the first of   these files are used as the header names for the X_[Train/Test] files. 
 
 
 
