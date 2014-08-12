@@ -15,18 +15,18 @@ run_analysis <- function(){
   
   
   #Load the training data
-  train_x <- "data/UCI\ HAR\ Dataset/train/X_train.txt"
-  train_sub <- "data/UCI\ HAR\ Dataset/train/subject_train.txt"
-  train_y <- "data/UCI\ HAR\ Dataset/train/y_train.txt"
+  train_x <- "UCI\ HAR\ Dataset/train/X_train.txt"
+  train_sub <- "UCI\ HAR\ Dataset/train/subject_train.txt"
+  train_y <- "UCI\ HAR\ Dataset/train/y_train.txt"
   xtrain <- read.table(train_x, col.names=feat$Feature)
   ytrain <- read.table(train_y, col.names="Activity")  # activity label
   subtrain <- read.table(train_sub, col.names="Subject")
   
   
   # Load the test data
-  test_x <- "data/UCI\ HAR\ Dataset/test/X_test.txt"
-  test_y <- "data/UCI\ HAR\ Dataset/test/y_test.txt"
-  test_sub <- "data/UCI\ HAR\ Dataset/test/subject_test.txt"
+  test_x <- "UCI\ HAR\ Dataset/test/X_test.txt"
+  test_y <- "UCI\ HAR\ Dataset/test/y_test.txt"
+  test_sub <- "UCI\ HAR\ Dataset/test/subject_test.txt"
   xtest <- read.table(test_x, col.names=feat$Feature)
   ytest <- read.table(test_y, col.names="Activity")  #activity label
   subtest <- read.table(test_sub, col.names="Subject")
@@ -37,8 +37,7 @@ run_analysis <- function(){
   train <- cbind(ytrain,subtrain,xtrain)
   test <- cbind(ytest,subtest,xtest)
   
-  #Merges the training and the test sets to create one data set. (DO WE NEED TO LABEL THESE SEPERATELY?, no bc subjects are independent)
-  
+  #Merges the training and the test sets to create one data set. 
   print("Merging training and test data sets...")
   complete <- rbind(train,test)
   print("...complete")
