@@ -58,18 +58,18 @@ In addition, 'features.txt' and 'activity_label.txt' files are loaded. The featu
 5. Next the naming convention for the measurement data is adjust for clarity and to be able to link common measurements with both a mean and standard deviation value.  
 
 6. A tidy data set is output such that each entry in this table gives the mean and/or standard deviation for a specific measurement, for a specific activity, for a specific subject. This data set has the following columns:
-+ Subject Number
-+ Activity
-+ Measurement
-+ Mean Value of Measurement
-+ Standard Deviation of Measurement
+  + Subject Number
+  + Activity
+  + Measurement
+  + Mean Value of Measurement
+  + Standard Deviation of Measurement
 
-This data set is written out as 'Mean_SD_bySubActMeas.txt' to your working directory.
+  This data set is written out as 'Mean_SD_bySubActMeas.txt' to your working directory.
 
 
 7. Finally, a second tidy data set is produced which lists the averages of the mean and/or standard deviation over each activity, for a specific measurement, for a specific subject. This data set has the same columns as the previous data set. 
 
-This data set is written out as 'Mean_SD_Average_bySubActMeas.txt' to your working directory. 
+  This data set is written out as 'Mean_SD_Average_bySubActMeas.txt' to your working directory. 
 
 
 About the data
