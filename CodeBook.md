@@ -22,7 +22,7 @@ After the 'run_analysis.R' script is ran the following two files are created:
 The purpose of this document is to describes the variables, the data, and any transformations or work performed to clean up the data. 
 
 
-Nuts & bolts 
+Nuts & Bolts 
 ------------
 
 1. The three files corresponding to each subset, test and train, are loaded into R. 
